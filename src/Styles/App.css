@@ -1,0 +1,498 @@
+/* Barra de Navegación */
+.Nav-bar {
+  padding: 10px 80px;
+  background: #32518e79;
+}
+.Nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Nav div img {
+  width: 25%;
+}
+.nav-container {
+  width: 75%;
+  display: flex;
+}
+.nav-container li {
+  margin: 0 10px;
+  list-style: none;
+}
+.nav-container li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+}
+/*Sección Principal o Inicio*/
+.Principal {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../Componentes/img/caminosoleado.JPG);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 100px;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.Contenido {
+  width: 50%;
+  height: 55vh;
+  padding: 0px 50px;
+  display: flex;
+  justify-content: end;
+  align-items: right;
+  flex-direction: column;
+  color: #ffffff;
+}
+.Contenido h1 {
+  padding: 10px 0px;
+}
+.Contenido p {
+  padding: 10px 0px;
+}
+.btn {
+  width: 250px;
+  flex-shrink: 0;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 10px 0px;
+  margin: 16px 0px;
+  color: #ffffff;
+  font-size: 15px;
+  opacity: 95%;
+  border-radius: 40px;
+  background: #e2552d;
+}
+.btn:hover {
+  opacity: 0.7;
+}
+/* Sección Nosotros*/
+.Secundario {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.quienes-somos {
+  padding: 100px;
+  margin-left: 80px;
+}
+.quienes-somos h2 {
+  padding: 0px 0px 5px 0px;
+}
+.quienes-somos h3 {
+  color: #32508e;
+  padding: 15px 0px 5px 0px;
+  width: 50%;
+  border-bottom: #e2552d solid 2px;
+}
+.quienes-somos p {
+  padding: 20px 0px 0px 0px;
+}
+.Foto {
+  padding: 80px;
+  z-index: 1;
+  margin-right: 80px;
+}
+.Foto img {
+  border: #ffffff solid 5px;
+}
+.curva svg {
+  margin-top: -250px;
+}
+/* Misión, Visión, Valores*/
+.Titulo {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Titulo h3 {
+  color: #32508e;
+  padding: 15px 0px 5px 0px;
+  text-align: center;
+  width: 16%;
+  border-bottom: #e2552d solid 2px;
+}
+.MVV {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  padding: 30px 100px 20px;
+}
+.MVV div {
+  /* border: #000 solid 1px; */
+  border-bottom: #e2552d solid 5px;
+  width: 100%;
+  /* height: 300px; */
+  padding: 20px;
+}
+.MVV div i {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  padding: 10px;
+}
+/* .vision i {
+  color: #fff;
+} */
+.MVV div h3 {
+  padding: 15px;
+  text-align: center;
+  color: #32508e;
+}
+.MVV div p {
+  padding: 15px;
+}
+/*Cobertura Nacional*/
+.mapa {
+  padding: 0px 100px;
+}
+.mapa div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mapa h3 {
+  color: #32508e;
+  padding: 15px 0px 5px 0px;
+  text-align: center;
+  width: 16%;
+  border-bottom: #e2552d solid 2px;
+}
+.mapa p {
+  padding: 20px 80px;
+  text-align: center;
+}
+.mapa img {
+  margin: 10px 200px;
+  z-index: 1;
+}
+.cobertura svg {
+  margin-top: -200px;
+}
+/*Certificaciones*/
+.Cert-acre {
+  padding: 50px 100px 20px;
+}
+.certificaciones p {
+  padding: 20px 0px;
+}
+.Acreditaciones p {
+  padding: 20px 0px;
+}
+.certificaciones {
+  padding: 0px 20px 20px;
+}
+.Acreditaciones {
+  padding: 0px 20px 20px;
+}
+.Titulo-certacre {
+  color: #32508e;
+  text-align: left;
+  width: 12%;
+  border-bottom: #e2552d solid 2px;
+}
+.iconos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  gap: 20px;
+}
+.iconos-acre {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+}
+/*NOTICIAS*/
+.Noticias {
+  padding: 30px 120px;
+}
+.titulo-noticias h3 {
+  color: #32508e;
+  padding: 15px 0px 5px 0px;
+  text-align: center;
+  width: 16%;
+  border-bottom: #e2552d solid 2px;
+}
+.Noticias-cuerpo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  padding: 20px 0px;
+}
+.Nota1 {
+  background-color: #e2542d41;
+  padding: 20px;
+  z-index: 1;
+  border: #ffffff solid 2px;
+}
+.Notas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  z-index: 1;
+}
+.Notas div {
+  background-color: #e2542d41;
+  padding: 20px;
+  border: #ffffff solid 2px;
+}
+.Noticias-cuerpo h4 {
+  color: #32508e;
+  text-align: left;
+  padding: 15px 0px;
+}
+.Noticias-cuerpo p {
+  padding: 10px 0px;
+}
+.Noticias-cuerpo a {
+  color: #e2552d;
+  padding: 10px 0px;
+  cursor: pointer;
+}
+.curva2 svg {
+  margin-top: -250px;
+}
+/*Productos*/
+.general1 {
+  padding: 50px 100px;
+}
+.Titulo-producto {
+  color: #32508e;
+  text-align: left;
+  width: 17%;
+  border-bottom: #e2552d solid 2px;
+  padding-left: 10px;
+}
+.products {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 10px;
+  gap: 15px;
+}
+.products div {
+  border-bottom: #e2552d solid 5px;
+}
+.products h3{
+  padding-bottom: 10px;
+  text-align: center;
+  color:#32508e;
+}
+
+/*Servicios*/
+.General {
+  padding: 50px 100px;
+}
+.img-derecha {
+  background-color: #32508e;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 50px;
+}
+.subtitulo h3 {
+  width: 45%;
+  border-bottom: #e2552d solid 2px;
+  color: #ffffff;
+  padding: 0px 10px;
+}
+.img-derecha p {
+  color: #ffffff;
+}
+.img-derecha img {
+  width: 80%;
+  display: block;
+  margin: auto;
+}
+.img-izquierda {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 50px;
+  border-bottom: #32508e solid 2px;
+}
+.img-izquierda1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 50px;
+}
+.subtitulo1 h3 {
+  width: 60%;
+  border-bottom: #e2552d solid 2px;
+  color: #32508e;
+  padding: 0px 10px;
+}
+.img-izquierda p {
+  color: #000000;
+}
+.img-izquierda img {
+  width: 80%;
+  display: block;
+  margin: auto;
+}
+.img-izquierda1 p {
+  color: #000000;
+}
+.img-izquierda1 img {
+  width: 50%;
+  display: block;
+  margin: auto;
+}
+/*Sección Secundaria*/
+.Secundario2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../Componentes/img/camion.png);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 100px;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.Contenido2 {
+  /* background-color: red; */
+  height: 55vh;
+  padding: 150px 50px;
+  align-items: right;
+  flex-direction: column;
+  color: #ffffff;
+}
+.Contenido2 p {
+  padding: 20px 0px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.btn {
+  width: 150px;
+  flex-shrink: 0;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  margin: 16px 0px;
+  color: #ffffff;
+  font-size: 15px;
+  opacity: 95%;
+  border-radius: 40px;
+  background: #e2552d;
+}
+.btn:hover {
+  opacity: 0.7;
+}
+.General2 {
+  padding: 50px 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.Contenedor1 {
+  padding: 20px;
+}
+.Contenedor1 h4 {
+  text-align: left;
+  padding: 20px 0px;
+}
+.Contenedor1 p {
+  padding: 0px;
+}
+.mapa {
+  padding: 20px 0px 0px;
+}
+.Contenedor2 {
+  padding: 20px;
+}
+.formulario {
+  width: 100%;
+  padding: 20px;
+  background-color: #ffffff;
+  /* margin-left: 50px; */
+}
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0px;
+  border: none;
+  border-bottom: #000000 solid 1px;
+  border-radius: 5px;
+}
+.descripcion{
+  height: 100px;
+}
+.formulario input[type="submit"] {
+  cursor: pointer;
+  width: 80%;
+  padding: 10px;
+  border: none;
+  color: #fff;
+  background-color: #1e6ef9;
+}
+.formulario input[type="submit"]:hover {
+  opacity: 0.7;
+}
+/*Footer*/
+footer {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 30px;
+  padding: 30px 80px;
+  text-align: center;
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+.Resumen img {
+  width: 70%;
+  padding-bottom: 10px;
+}
+h4 {
+  text-align: center;
+  padding: 15px;
+  color: #32508e;
+}
+p {
+  text-align: left;
+  padding: 10px;
+}
+.copyright p {
+  text-align: center;
+  font-weight: bold;
+}
+.Redes ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  padding: 10px;
+}
+.Redes ul li i {
+  padding: 10px;
+  color: #000000;
+}
+.Redes a {
+  color: #000000;
+}
+.Menu ul li {
+  list-style: none;
+  text-align: left;
+  padding: 15px;
+}
+.copyright {
+  width: 430%;
+}
